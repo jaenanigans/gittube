@@ -2,7 +2,6 @@
 	"name": "video_app",
 	"version": "0.1.0",
 	"private": true,
-	"type": "module",
 	"dependencies": {
 		"@emotion/react": "^11.9.3",
 		"@emotion/styled": "^11.9.3",
@@ -55,6 +54,5 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
-	},
-	"proxy": "http://localhost:8800/api/"
+	}
 }

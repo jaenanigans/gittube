@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import Menu from './components/Menu';
-import Navbar from './components/Navbar';
-import { darkTheme, lightTheme } from './utils/Theme';
+import Menu from './components/Menu.jsx';
+import Navbar from './components/Navbar.jsx';
+import { darkTheme, lightTheme } from './utils/Theme.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Video from './pages/Video';
-import SignIn from './pages/SignIn';
-import Search from './pages/Search';
+import Home from './pages/Home.jsx';
+import Video from './pages/Video.jsx';
+import SignIn from './pages/SignIn.jsx';
+import Search from './pages/Search.jsx';
 import { useSelector } from 'react-redux';
 
 const Container = styled.div`
